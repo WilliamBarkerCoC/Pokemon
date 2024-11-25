@@ -1,0 +1,117 @@
+/* Roll20-Compatible CSS for Custom Character Sheet */
+
+
+
+/* Container Styling */
+
+.sheet-container {
+
+    position: relative;
+
+    width: 680px; /* Match image width */
+
+    height: 879.75px; /* Match image height */
+
+    margin: 0 auto; /* Center the container */
+
+}
+
+
+
+/* Background Image */
+
+.sheet-background {
+
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    position: relative;
+
+    z-index: 1; /* Keep the image below the fields */
+
+}
+
+.charsheet {
+    background: white url("https://github.com/WilliamBarkerCoC/Public-Domain-Images/blob/main/Pokemon Background.png?raw=true") no-repeat 0px 20px scroll;
+}
+
+
+
+/* Input Fields */
+
+.sheet-input {
+
+    position: absolute;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    border: 1px solid #000;
+
+    font-size: 14px;
+
+    padding: 4px;
+
+    z-index: 10; /* Ensure inputs are above the background image */
+
+    box-sizing: border-box; /* Ensures padding doesn't affect width/height */
+
+}
+
+
+
+/* Specific Input Field Placements */
+
+.sheet-field1 {
+
+    top: 130px; /* Adjust field positions */
+
+    left: 60px;
+
+    width: 30px;
+
+}
+
+
+
+.sheet-field2 {
+
+    top: 130px;
+
+    left: 250px;
+
+    width: 30px;
+
+}
+
+
+
+.sheet-field3 {
+
+    top: 170px;
+
+    left: 300px;
+
+    width: 70px;
+
+    height: 20px;
+
+}
+
+
+
+.sheet-field4 {
+
+    top: 275px;
+
+    left: 425px;
+
+    width: 200px;
+
+    height: 100px
+
+    ;
+
+}

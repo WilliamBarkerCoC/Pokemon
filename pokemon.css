@@ -1,0 +1,35 @@
+/* Roll20-Compatible CSS for Custom Character Sheet */
+
+/* Background Image */
+
+.charsheet {
+    background: white url("https://github.com/WilliamBarkerCoC/Public-Domain-Images/blob/main/Pokemon Background.png?raw=true") no-repeat 0px 20px scroll;
+}
+
+
+/* Input Fields */
+
+.sheet-input {
+
+    text-align: center;
+
+    background-color: rgba(255,255,255,0.1);
+
+    border: 0px dashed purple;
+
+}
+
+
+/* Specific Input Field Placements */
+
+.sheet-characteristic {
+	
+	font-size: 40px;
+
+	height: 51px;
+
+    width: 118px;
+
+    margin-left: 122px;
+	
+}
